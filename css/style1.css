@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;  
+    grid-template-columns: auto auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.grid-item {
+    gap: 10px;
+    padding: 10px;
+    display: grid;  
+    align-items: stretch;
+}
+
+.grid-item1 {
+    gap: 10px;
+    padding: 10px;
+        
+    align-items: stretch;
+    grid-template-columns: auto auto;
+}
+
+.box {
+    background-color: blue;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: red;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+}

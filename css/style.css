@@ -1,0 +1,152 @@
+* {
+    background: darkgray;
+}
+
+
+    #firstname {
+        color: green;
+    }
+    
+    #lastname {
+        color: blue;
+    }
+    
+    .next-gen {
+        color: blueviolet;
+    }
+
+    p.intro {
+        color: brown;
+    }
+
+    .love-you {
+        background-color: aquamarine;
+        color: blue ;
+    }
+
+    .container {
+        font-size: 16px;
+    }
+
+    .container p {
+        font-size: 1em;
+    }
+
+    .container h2 {
+        font-size: 3em;
+    }
+
+    .container h3 {
+        font-size: 2em;
+    }
+
+    .container h4 {
+        font-size: 0.5em;
+    }
+
+    .thai {
+        font-size: 2rem;
+        font-weight: 900;
+        font-size: monospace;
+    }
+
+    .my-box {
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        background-color: aliceblue;
+        padding: 20px;
+        margin: 32px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .my-box3 {
+        border-style: dashed;
+        border-color: blue;
+        border-width: 4px;
+        background-color: bisque;
+    }
+
+    .box {
+        background-color: blue;
+        margin: 20px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        color: white;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+
+    .parent-box {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        left: 30px;
+    }
+
+    .child-box {
+        position: absolute;
+        border-style: solid;
+        border width: 2px;
+        right: 0;
+        bottom: 0;
+        border-color: blue;
+    }
+
+    body {
+        height: 2000px;
+        margin: 0;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+        background-color: green;
+    }
+
+    .flex-container {
+        display: flex;
+        border-style: solid;
+        border-color: red;
+        flex-direction: row;
+        width: 1000px   ;
+        flex-wrap: wrap-reverse;
+            
+    }
+
+    .flex-item {
+        margin: 50px;
+        background-color: blue;
+        text-align: center;
+        color: white;
+    }
+
+    .grid-container {
+        background-color: blue;
+        width: 500px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: space-evenly;
+        align-items: stretch;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: white;
+        border-style: solid;
+        border-width: 0.5px;
+    }
+
+    @media screen and (max-width: 1000px) and (min-width:500px) {
+            .example {
+                background-color: white;
+            }
+        }
