@@ -1,0 +1,36 @@
+.head1 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;   
+   
+}
+
+.head2 {
+    color: white;
+    margin: 10px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0  ;
+}
+
+.body1 {
+    
+}
+
+.body2 {
+    background-color: orange;
+    width: 50%;
+    position: ;
+    
+    
+}
+
+.body3 {
+    background-color: palevioletred;
+    width: 50%;
+    
+}
