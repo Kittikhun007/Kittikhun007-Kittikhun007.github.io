@@ -2,8 +2,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 16px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,61,1) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(15,134,217);
+    background: linear-gradient(90deg, rgba(15,134,217,1) 0%, rgba(120,207,215,1) 47%, rgba(209,224,227,1) 100%);
     color: black;
     margin: 0px;
     padding:0;
@@ -69,7 +69,7 @@ p {
     font-family:'Times New Roman', Times, serif;
 }
 .text-2{
-    color: aliceblue;
+    color: rgba(2,0,36,1);
     font-size: 20px;
     margin-left: 10px;
     padding: 10px;
@@ -78,6 +78,10 @@ p {
 .text-3{
     font-size: 16px;
     padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-3{
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .image1{
